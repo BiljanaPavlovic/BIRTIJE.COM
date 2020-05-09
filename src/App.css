@@ -1,38 +1,95 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto+Slab:wght@500&display=swap');
+
+
+:root{
+  --brown: #4d1a00;
+  --light: #ffd9b3;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  background:  var(--light);
+  color: var(--brown) !important;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slajder-img {
+  height: 80vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.text-history {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  margin: 100px;
+}
+.quotes {
+  text-align: center;
+  font-size: 10vh;
+}
+.quotes h3 {
+  margin: 50px;
+}
+.btn-about{
+  padding: 10px;
+  border: solid 5px var(--brown);
+  background-color: var(--light);
+  margin: 50px;
+  font-size: 3vh;
+}
+.btn-quotes {
+  padding: 10px;
+  border: solid 5px var(--brown);
+  background-color: var(--light);
+  margin: 50px;
+  font-size: 3vh;
 }
 
-.App-link {
-  color: #61dafb;
+
+.pub-img{
+  height: 300px;
+  width: 500px;
+  border: solid 10px var(--brown);
+}
+.profile-img-larg {
+  height: 300px;
+  width: 500px;
+  border: solid 10px var(--brown);
+}
+.profile-img-small {
+  height: 150px;
+  width: 200px;
+  border: solid 5px var(--brown);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footer {
+ 
+  text-align: center;
+}
+.footer a {
+  color: var(--brown);
+  font-size: 2.5rem;
+  margin: 10px;
+}
+.footer a:hover {
+  color: var(--light);
+  transition: 0.7s;
+}
+.footer i:hover {
+  animation: footer 0.7s ease;
+}
+
+@keyframes footer {
+  100% {
+      transform: rotate(360deg);
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.footer h3 {
+  margin-top: 20px;
+}
+.footer h2::after {
+  background: var(--gray);
 }
