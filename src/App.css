@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto+Slab:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto+Slab:wght@500&display=swap");
 
-
-:root{
+:root {
   --brown: #4d1a00;
   --light: #ffd9b3;
+  --lighter: rgb(254, 246, 210);
 }
 * {
   margin: 0;
@@ -12,11 +12,19 @@
 }
 
 body {
-  font-family: 'Roboto Slab', serif;
-  background:  var(--light);
+  font-family: "Roboto Slab", serif;
+  background: var(--lighter);
   color: var(--brown) !important;
   text-align: center;
 }
+nav {
+  background: var(--brown) !important;
+  color: var(--lighter) !important;
+}
+.mr-auto {
+  color: var(--lighter) !important;
+}
+
 .slajder-img {
   height: 80vh;
 }
@@ -29,13 +37,11 @@ body {
 .quotes {
   text-align: center;
   font-size: 5vh;
-
-  
 }
 .quotes h3 {
   margin: 50px;
 }
-.btn-about{
+.btn-about {
   padding: 10px;
   border: solid 5px var(--brown);
   background-color: var(--light);
@@ -59,7 +65,7 @@ body {
   transform: scale(1.3);
 }
 
-.pub-img{
+.pub-img {
   height: 300px;
   width: 500px;
   border: solid 10px var(--brown);
@@ -89,11 +95,13 @@ body {
   transform: scale(1.3);
 }
 .short-profile-list {
- margin-left: 18%;
+  margin-left: 18%;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }
 
 .footer {
- 
   text-align: center;
 }
 .footer a {
@@ -111,12 +119,9 @@ body {
 
 @keyframes footer {
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
-.footer h3 {
+h3 {
   margin-top: 20px;
-}
-.footer h2::after {
-  background: var(--gray);
 }

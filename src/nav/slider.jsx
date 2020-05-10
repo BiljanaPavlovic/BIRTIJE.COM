@@ -16,8 +16,8 @@ export default function Slider() {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Koje kafane su najbolje u gradu?</h3>
+      <p>Pogledajte koje kafane je odabrao nas ziri.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -28,8 +28,8 @@ export default function Slider() {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>Kafane kroz istoriju</h3>
+      <p>Saznajte nesto o duhu Beograda kroz price o njegovim kafanama.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -40,8 +40,8 @@ export default function Slider() {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Najbolji ziri</h3>
+      <p>Upoznajte se sa strucnim zirijem koji ocenjuje kafane.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -52,8 +52,8 @@ export default function Slider() {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Citati o kafanama</h3>
+      <p>Pogledajte sta su velike istorijske licnosti govorile o kafanama.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -64,8 +64,8 @@ export default function Slider() {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Ostavite i svoj komentar</h3>
+      <p>Zanima nas da li ste vi posetili neku od ovih kafana i sta mislite o njima.</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
