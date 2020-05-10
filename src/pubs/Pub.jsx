@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Revew from '../review/Revew';
 import UsersComment from '../review/coment';
 

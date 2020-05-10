@@ -1,4 +1,8 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+import Quotes2 from './Quotes2';
+import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
 
 export default function Quotes() {
     const [index,setIndex] = useState(0) 
@@ -14,7 +18,8 @@ export default function Quotes() {
         'Sa pravim ljudima nema pogrešne kafane.',
         'Sve se svodi na to kome prvom šaljete poruku kada ste pijani u kafani.',
         'Kafana je oobdanište za odrasle.',
-        'Svaki čovek ima određeni broj dana u životu. Vreme provedeno u kafani ne računa se u konačan zbir.'
+        'Svaki čovek ima određeni broj dana u životu. Vreme provedeno u kafani ne računa se u konačan zbir.',
+        
     ]
     const Quote = ({text}) => {
         return(
@@ -25,9 +30,20 @@ export default function Quotes() {
     return (
         <div className = 'quotes'>
             <h3>Citati o kafanama</h3>
-            <b><Quote text={quotes[index]} /></b>
-            <button className='btn-quotes' onClick={() => setIndex(Math.floor(Math.random()* quotes.length))}>Danasnji citat</button><br/>
-            <iframe src="https://scratch.mit.edu/projects/382573673/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen title = "Ziveli"></iframe>
+            <Container>
+ 
+  <Row>
+    <Col> <b><Quote text={quotes[index]} /></b>
+            <button className='btn-quotes' onClick={() => setIndex(Math.floor(Math.random()* quotes.length))}>Danasnji citat</button></Col>
+    <Col> <iframe src="https://scratch.mit.edu/projects/382573673/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen title = "Ziveli"></iframe></Col>
+    <Col>{ <Quotes2 />}</Col>
+  </Row>
+</Container>
+
+
+           
+      
+       
         </div>
     )
 }

@@ -1,8 +1,11 @@
 import React from "react";
+import Image from 'react-bootstrap/Image'
+
 
 export default function Poem1() {
   return (
     <div>
+      <Image src="/img/pesme/DIS-2.jpg" fluid />
       <h3>Ne marim da pijem</h3>
       <p>Ne marim da pijem, al' sam pijan često.</p>
       <p>U graji, bez druga, sam, kraj pune čaše.</p>

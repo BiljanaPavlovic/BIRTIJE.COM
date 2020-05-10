@@ -9,7 +9,6 @@ export default function Content() {
     return (
      
 
-
         <div>
             <h1>Ovo je sredina!</h1>
            
@@ -21,6 +20,5 @@ export default function Content() {
             <hr />
         </div>
         
-      
     )
 }

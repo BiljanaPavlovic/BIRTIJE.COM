@@ -1,14 +1,12 @@
 import React from 'react'
-import Pub from './Pub'
 
-export default function PubShort() {
+export default function PubShort({name, slika, opis }) {
     return (
         <div>
-            <h3>Naziv kafane</h3>
-            <img src="/img/kafana.jpg" alt="slika kafane" className = 'pub-img'/>
-            <p>ovo je prikaz u listi i vodi ka sirem prikazu kafane</p>
-            <hr />
-            <Pub />
+            <h3>{name}</h3>
+            <img src = {slika} className = 'pub-img' alt = 'slika kafane'/>
+    <p> {opis}</p>
+
         </div>
     )
 }

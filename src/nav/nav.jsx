@@ -1,34 +1,29 @@
-import React from 'react'
-import Nav from 'react-bootstrap/Nav'
+import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Form from 'react-bootstrap/Form';
+import FormControl from 'react-bootstrap/FormControl';
+import Button from 'react-bootstrap/Button';
 
 export default function Navigation() {
-  
-  
-    return (
-        <>
-        
-        <Nav className="justify-content-end nav" activeKey="/home">
-        <Nav.Item>
-            <Nav.Link href="/home"><img src='./img/krigle.png' height = '25px' width = '30px' alt = 'logo' /></Nav.Link>
-          </Nav.Item>
-        <Nav.Item>
-            <Nav.Link href="/home">BIRTIJE.COM</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="/home">Active</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-1">Link</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-2">Link</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="disabled" disabled>
-              Disabled
-            </Nav.Link>
-          </Nav.Item>
-        </Nav>
-      </>
-    );
-  }
+  return (
+    <div>
+      
+      
+
+      <Navbar bg="dark" variant="dark" fixed="top">
+    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+    <Nav className="mr-auto">
+      <Nav.Link href="#home">Home</Nav.Link>
+      <Nav.Link href="#features">Features</Nav.Link>
+      <Nav.Link href="#pricing">Pricing</Nav.Link>
+    </Nav>
+    <Form inline>
+      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+      <Button variant="outline-info">Search</Button>
+    </Form>
+  </Navbar>
+
+    </div>
+  )
+}

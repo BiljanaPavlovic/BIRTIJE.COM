@@ -18,6 +18,7 @@ export default function About() {
             <Quotes />
             <br />
           
+          
         </div>
     )
 }

@@ -28,7 +28,9 @@ body {
 }
 .quotes {
   text-align: center;
-  font-size: 10vh;
+  font-size: 5vh;
+
+  
 }
 .quotes h3 {
   margin: 50px;
@@ -47,22 +49,47 @@ body {
   margin: 50px;
   font-size: 3vh;
 }
-
+.pub-img-nav {
+  height: 250px;
+  width: 300px;
+  border: solid 10px var(--brown);
+  transition: transform 3s ease-in-out;
+}
+.pub-img-nav:hover {
+  transform: scale(1.3);
+}
 
 .pub-img{
   height: 300px;
   width: 500px;
   border: solid 10px var(--brown);
+  transition: transform 3s ease-in-out;
 }
+.pub-img:hover {
+  transform: scale(1.3);
+}
+
 .profile-img-larg {
   height: 300px;
   width: 500px;
   border: solid 10px var(--brown);
+  transition: transform 3s ease-in-out;
+}
+.profile-img-larg:hover {
+  transform: scale(1.3);
 }
 .profile-img-small {
   height: 150px;
   width: 200px;
   border: solid 5px var(--brown);
+  transition: transform 3s ease-in-out;
+  border-radius: 50%;
+}
+.profile-img-small:hover {
+  transform: scale(1.3);
+}
+.short-profile-list {
+ margin-left: 18%;
 }
 
 .footer {
