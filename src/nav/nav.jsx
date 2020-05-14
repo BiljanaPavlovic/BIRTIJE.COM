@@ -10,14 +10,14 @@ export default function Navigation() {
         collapseOnSelect
         expand="lg"
         variant="light"
-        bg="light"
         fixed="top"
+        className = 'nav'
       >
-        <Navbar.Brand href="/">Pocetna strana</Navbar.Brand>
+        <Navbar.Brand className = 'nav' href="/">Pocetna strana</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="/about">O kafanama</Nav.Link>
-          <Nav.Link href="/pubList">Kafane</Nav.Link>
-          <Nav.Link href="/profileList">Ziri</Nav.Link>
+          <Nav.Link  className = 'nav' href="/about">O kafanama</Nav.Link>
+          <Nav.Link  className = 'nav' href="/pubList">Kafane</Nav.Link>
+          <Nav.Link className = 'nav'  href="/profileList">Ziri</Nav.Link>
         </Nav>
       </Navbar>
     </div>

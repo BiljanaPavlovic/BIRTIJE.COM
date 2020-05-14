@@ -17,7 +17,7 @@ body {
   color: var(--brown) !important;
   text-align: center;
 }
-nav {
+.nav {
   background: var(--brown) !important;
   color: var(--lighter) !important;
 }
