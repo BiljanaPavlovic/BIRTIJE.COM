@@ -12,7 +12,7 @@ export default function ShortProfile({ name }) {
           <p>Ovo je kraci profil</p>
           <p>{name}</p>
           <img
-            src="/img/smajli.jpg"
+            src="/img/smajli1.jpg" onClick={e => (e.currentTarget.src = "/img/smajli.jpg")}
             alt="slika clana zirija"
             className="profile-img-small"
             />

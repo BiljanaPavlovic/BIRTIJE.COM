@@ -16,7 +16,7 @@ export default function Revew() {
       };
 
     return (
-        <div>
+        <div className = 'revew'>
             <p>Ovo je siri komentar koji ostavlja ziri za svaku birtiju/</p>
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -28,13 +28,13 @@ export default function Revew() {
   <Row>
     <Col> <h3>{counter}</h3>
       <button className="btn-like" onClick={increase}>
-        <img src="/img/like.png" alt="krigla" />
+        <img src="/img/like.png" className="btn-like" alt="krigla" />
       </button></Col>
     <Col><h3>{negativCounter}</h3>
       <button className="btn-like" onClick={decrease}>
-        <img src="/img/dislajk.png" alt="krigla" />
+        <img src="/img/dislajk.png" className="btn-like" alt="krigla" />
       </button>
-      <hr /></Col>
+      </Col>
   </Row>
   
 </Container>

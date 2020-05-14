@@ -1,19 +1,9 @@
 import React from "react";
-import DashBoard from "./DashBoard";
-import Login from "./Login";
 import Revew from "../review/Revew";
 
 export default function Profile() {
   return (
     <div>
-      <Login />
-      <hr />
-      <h3>Ime clana zirija</h3>
-      <img
-        src="/img/smajli.jpg"
-        alt="Slika clana zirija"
-        className="profile-img-larg"
-      />
       <p>Kratki tekst o clanu zirija</p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptatibus
       eligendi soluta maiores consequatur? Earum fugiat aut voluptatibus.
@@ -24,7 +14,6 @@ export default function Profile() {
       <p>Sve recenzije koje je napisao se izlistavaju ovde.</p>
       <hr />
       <Revew />
-      <DashBoard />
     </div>
   );
 }

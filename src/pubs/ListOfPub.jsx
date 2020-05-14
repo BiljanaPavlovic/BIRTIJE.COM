@@ -42,6 +42,7 @@ export default function ListOfPub() {
             {" "}
             <PubShort
               name="Ana"
+              slika = '/img/birtija.jpg'
               opis="Lorem, ipsum dolor sit amet consectetur adipisicing elit. "
               />
           </Col>

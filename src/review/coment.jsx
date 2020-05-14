@@ -14,7 +14,7 @@ export default function UsersComment() {
     setNegativCounter(negativCounter - 1);
   };
   return (
-    <div>
+    <div className = 'comment'>
       <p>Ovo je kratki komentar koji ostavlja korisnik.</p>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
@@ -25,13 +25,13 @@ export default function UsersComment() {
   <Row>
     <Col> <h3>{counter}</h3>
       <button className="btn-like" onClick={increase}>
-        <img src="/img/like.png" alt="krigla" />
+        <img className="btn-like" src="/img/like.png" alt="krigla" />
       </button></Col>
     <Col><h3>{negativCounter}</h3>
       <button className="btn-like" onClick={decrease}>
-        <img src="/img/dislajk.png" alt="krigla" />
+        <img src="/img/dislajk.png" className="btn-like" alt="krigla" />
       </button>
-      <hr /></Col>
+      </Col>
   </Row>
   
 </Container>
