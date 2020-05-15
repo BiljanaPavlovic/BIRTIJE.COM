@@ -1,20 +1,19 @@
 import React from "react";
 import Revew from "../review/Revew";
 import UsersComment from "../review/coment";
+import { CommentList } from "../review/commentList";
 
 export default function Pub({ name, opis, slika }) {
   return (
     <div>
-      <h2>Ovo je prikaz jedne kafane.</h2>
-      <h3>{name}</h3>
-
-      <p>{opis}</p>
-      <p>Ovde se prikazuje google mapa do kafane</p>
-      <p>Ovde se prikazuje recenzije zirija.</p>
-      <p>Posetioci sajta mogu da ostave svoj komentar na kafanu.</p>
-      <hr />
-      <Revew />
-      <UsersComment />
+      <CommentList>
+       
+        <p>adresa</p>
+        <p>Posetioci sajta mogu da ostave svoj komentar na kafanu.</p>
+        <hr />
+        <Revew />
+        <UsersComment />
+      </CommentList>
     </div>
   );
 }

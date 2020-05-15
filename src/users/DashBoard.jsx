@@ -11,23 +11,23 @@ export default function DashBoard() {
       </p>
       <Form>
         <Form.Group controlId="exampleForm.ControlInput1">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="name@example.com" />
+          <Form.Label>Unesi svoj mejl</Form.Label>
+          <Form.Control type="email" className = 'input-dashboard' placeholder="name@example.com" />
         </Form.Group>
         <Form.Group controlId="exampleForm.ControlSelect1">
-          <Form.Label>Example select</Form.Label>
-          <Form.Control as="select">
+          <Form.Label>Izaberi naziv kafane</Form.Label>
+          <Form.Control className = 'input-dashboard' as="select">
             <option>Mornar</option>
             <option>Sunce</option>
             <option>Zora</option>
             <option>Ana</option>
-            <option>5</option>
+           
           </Form.Control>
         </Form.Group>
 
         <Form.Group controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Example textarea</Form.Label>
-          <Form.Control as="textarea" rows="3" />
+          <Form.Label>Unesi svoju recenziju</Form.Label>
+          <Form.Control as="textarea" className = 'input-dashboard' rows="3" />
         </Form.Group>
       </Form>
       <button className="btn-about">Save</button>

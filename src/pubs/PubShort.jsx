@@ -4,7 +4,7 @@ import Pub from "./Pub";
 
 export default function PubShort({ name, slika, opis }) {
   return (
-    <div>
+    <div className = 'short-pub'>
       <Router>
         <Link to="/pubList/pub">
           <h3>{name}</h3>

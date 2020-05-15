@@ -9,7 +9,6 @@ export default function ShortProfile({ name }) {
           
 
         <Link to="/profileList/profile">
-          <p>Ovo je kraci profil</p>
           <p>{name}</p>
           <img
             src="/img/smajli1.jpg" onClick={e => (e.currentTarget.src = "/img/smajli.jpg")}

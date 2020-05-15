@@ -3,10 +3,14 @@ import ShortProfile from "./ShortProfile";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
+import { UserProvider } from "./userContext";
 
 export default function ListOfProfiles() {
   return (
     <div className = 'short-profile-list'>
+      <UserProvider>
+
+      
       <Container>
         <Row md={4}>
           <Col>
@@ -65,6 +69,7 @@ export default function ListOfProfiles() {
           </Col>
         </Row>
       </Container>
+      </UserProvider>
     </div>
   );
 }

@@ -7,13 +7,10 @@ export default function About() {
   return (
     <div>
            <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-          cupiditate aperiam maiores temporibus, blanditiis modi impedit
-          eligendi autem voluptatum quos. Eaque laboriosam fugit necessitatibus
-          similique facilis. Aliquam, ipsam. Excepturi, suscipit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-          cupiditate aperiam maiores temporibus, blanditiis modi impedit
-          eligendi autem voluptatum quos. Eaque laboriosam fugit necessitatibus
-          similique facilis. Aliquam, ipsam. Excepturi, suscipit?
+           U sekciji stare kafane možete videti priče o starim beogradskim kafanama
+         koje su čuvale duh ovog grada i njegovog boemskog duha. Citate velikih istorijskih
+         ličnosti možete pogledati u segmentu kafanske pesme, pa citati. Takođe tu možete
+         videti i srpske narodne zdravice i neke od najlepših pesama o kafanama.
         </p>
       <Router>
         <Link to="/about/history">

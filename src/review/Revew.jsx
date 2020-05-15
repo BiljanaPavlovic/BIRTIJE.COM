@@ -17,6 +17,8 @@ export default function Revew() {
 
     return (
         <div className = 'revew'>
+          <h6>Ime clana zirija</h6>
+          <h6>Naziv kafane o kojoj pise</h6>
             <p>Ovo je siri komentar koji ostavlja ziri za svaku birtiju/</p>
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.

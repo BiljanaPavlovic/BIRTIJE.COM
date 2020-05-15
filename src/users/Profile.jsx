@@ -4,7 +4,7 @@ import Revew from "../review/Revew";
 export default function Profile() {
   return (
     <div>
-      <p>Kratki tekst o clanu zirija</p>
+      
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptatibus
       eligendi soluta maiores consequatur? Earum fugiat aut voluptatibus.
       Molestiae obcaecati quos ut quas delectus possimus reprehenderit aut,

@@ -7,28 +7,28 @@ export const PubProvider = (props) => {
     {
       id: "pub1",
       name: "Mornar",
-      adress: "Adresa",
+      adress: "Dečanska 2 Beograd",
       desctiption:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto esse veniam ",
     },
     {
       id: "pub2",
       name: "Sunce",
-      adress: "Adresa",
+      adress: "Dečanska 1 Beograd",
       desctiption:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto esse veniam ",
     },
     {
       id: "pub3",
       name: "Zora",
-      adress: "Adresa",
+      adress: "Makedonska 7 Beograd",
       desctiption:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto esse veniam ",
     },
     {
       id: "pub4",
-      name: "Ana",
-      adress: "Adresa",
+      name: "Kod Ane",
+      adress: "Sarajevska 26 Beograd",
       desctiption:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto esse veniam ",
     },
