@@ -119,7 +119,18 @@ margin-left: 10%;
   margin: 5px;
   padding: 10px;
 }
-
+.single-comment{
+  border: solid 3px var(--brown);
+  color: var(--brown);
+  margin: 5px;
+  padding: 10px;
+}
+.single-comment h6 {
+  text-align: left;
+}
+.single-comment p {
+  text-align: left;
+}
 .profile-img-small {
   height: 200px;
   width: 200px;
