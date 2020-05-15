@@ -27,6 +27,12 @@ body {
 .nav a {
   margin-left: 150px;
   justify-content: space-around;
+  letter-spacing: 3px;
+  width: 150px;
+}
+.nav a:hover {
+  background-color: var(--light) !important;
+  color: var(--brown) !important;
 }
 .opening-text {
   margin-left: 5%;
@@ -148,6 +154,12 @@ margin-left: 10%;
   align-items: center;
   text-align: center;
   color: var(--brown);
+}
+.short-profile-list a {
+  color: var(--brown);
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
 }
 
 .footer {

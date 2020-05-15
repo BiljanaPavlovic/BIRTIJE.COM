@@ -2,22 +2,22 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link, } from "react-router-dom";
 import Profile from "./Profile";
 
-export default function ShortProfile({ name }) {
+export default function ShortProfile({ name, slika1, slika2, description }) {
   return (
     <div>
       <Router>
           
 
         <Link to="/profileList/profile">
-          <p>{name}</p>
           <img
-            src="/img/smajli1.jpg" onClick={e => (e.currentTarget.src = "/img/smajli.jpg")}
+            src={slika1} onClick={e => (e.currentTarget.src = slika2)}
             alt="slika clana zirija"
             className="profile-img-small"
             />
+            <h3>{name}</h3>
         </Link>
 
-        <Route path="/profileList/profile" component={Profile} />
+        <Route path="/profileList/profile" component={() => <Profile description = {description}  />}/>
            
       </Router>
     </div>

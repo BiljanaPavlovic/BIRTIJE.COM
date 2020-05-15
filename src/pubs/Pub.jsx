@@ -3,14 +3,14 @@ import Revew from "../review/Revew";
 import UsersComment from "../review/coment";
 import { CommentList } from "../review/commentList";
 
-export default function Pub({ name, opis, slika }) {
+export default function Pub({ name, adress, opis }) {
   return (
     <div>
       <CommentList>
-       
-        <p>adresa</p>
-        <p>Posetioci sajta mogu da ostave svoj komentar na kafanu.</p>
-        <hr />
+  <h4>{name}</h4>
+  <h5>Ovu kafanu možete pronaći na sledećoj adresi: {adress}</h5>
+  <p>{opis}</p>
+        
         <Revew />
         <UsersComment />
       </CommentList>

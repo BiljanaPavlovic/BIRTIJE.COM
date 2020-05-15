@@ -37,7 +37,7 @@ export default function UsersComment() {
           key={comment.id}
         />
       ))}
-<p>Napišite nam svoj komentar ako ste posetili ovu birtiju</p>
+      <p>Napišite nam svoj komentar ako ste posetili ovu birtiju</p>
       <form>
         <input
           type="text"

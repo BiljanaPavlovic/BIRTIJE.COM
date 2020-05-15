@@ -17,7 +17,7 @@ export default function Navigation() {
         <Nav className="mr-auto">
           <Nav.Link  className = 'nav' href="/about">O kafanama</Nav.Link>
           <Nav.Link  className = 'nav' href="/pubList">Kafane</Nav.Link>
-          <Nav.Link className = 'nav'  href="/profileList">Ziri</Nav.Link>
+          <Nav.Link className = 'nav'  href="/profileList">Žiri</Nav.Link>
         </Nav>
       </Navbar>
     </div>
