@@ -20,19 +20,31 @@ body {
 .nav {
   background: var(--brown) !important;
   color: var(--lighter) !important;
-  margin-left: 20px;
   text-align: center;
   justify-content: space-around;
+  
+  
 }
 .nav a {
-  margin-left: 150px;
+margin-left: 60px;
   justify-content: space-around;
   letter-spacing: 3px;
-  width: 150px;
+  width: 200px;
 }
 .nav a:hover {
   background-color: var(--light) !important;
   color: var(--brown) !important;
+}
+h2 {
+  text-align: center;
+}
+h2::after {
+  content: "";
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+  height: 5px;
+  background: var(--brown);
 }
 .opening-text {
   margin-left: 5%;
@@ -47,6 +59,9 @@ body {
   justify-content: center;
   text-align: center;
   margin: 100px;
+}
+.poems-home a {
+  color: var(--brown);
 }
 .quotes {
   text-align: center;
@@ -155,6 +170,7 @@ margin-left: 10%;
   text-align: center;
   color: var(--brown);
 }
+
 .short-profile-list a {
   color: var(--brown);
   font-size: 20px;

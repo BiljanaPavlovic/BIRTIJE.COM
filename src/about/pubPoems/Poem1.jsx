@@ -8,7 +8,7 @@ export default function Poem1() {
   return (
     <div>
       <Image src="/img/pesme/DIS-2.jpg" fluid />
-      <h3>Ne marim da pijem</h3>
+      <h2>Ne marim da pijem</h2>
       <Container>
         <Row>
           <Col>

@@ -11,7 +11,7 @@ export default function Toasts() {
     <div>
       <Container>
       <Image src="/img/zdravicaNaslovna.jpg" fluid />
-        <h3>Srpske narodne zdravice</h3>
+        <h2>Srpske narodne zdravice</h2>
         <Row>
           <Col>
             <img src="/img/vinoCasa.png" alt="Casa vina" />

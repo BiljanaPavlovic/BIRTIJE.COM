@@ -8,12 +8,19 @@ export default function SingleComment({ name, comment }) {
   const [counter, setCounter] = useState(0);
   const [negativCounter, setNegativCounter] = useState(0);
 
+//function for like btn
+
   const increase = () => {
     setCounter(counter + 1);
   };
+
+  //function for dislike btn
+
   const decrease = () => {
     setNegativCounter(negativCounter - 1);
   };
+
+  //form for single comment
   return (
     <div className = 'single-comment'>
       <h6>Ime: {name}</h6>

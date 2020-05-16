@@ -5,6 +5,9 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 
 export default function ListOfPub() {
+
+  //list of all pubs with list of all data that is passing in other components
+  
   return (
     <div>
       <h2>Lista kafana</h2>

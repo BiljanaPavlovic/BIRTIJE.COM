@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Pub from "./Pub";
 
 export default function PubShort({ name, slika, opis, adress, description }) {
+//this is how one pub looks like in a pub list
+
   return (
     <div className = 'short-pub'>
       <Router>

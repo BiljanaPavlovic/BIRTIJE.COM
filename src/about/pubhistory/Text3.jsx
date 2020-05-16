@@ -8,7 +8,7 @@ export default function Text3() {
   return (
     <div className="text-history">
       <Image src="/img/tekst3/naslovnaDardaneli.jpg" fluid />
-      <h3>Кафана Дарданели</h3>
+      <h2>Кафана Дарданели</h2>
       <p>
         Кафана Дарданели, међу ондашњим боемима позната по популарном
         незваничном називу Код коњске задњице, је једна од најпознатијих кафана

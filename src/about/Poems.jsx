@@ -9,7 +9,7 @@ import Quotes from "./Quotes";
 
 export default function Poems() {
   return (
-    <div>
+    <div className = 'poems-home'>
       <Container>
         <Router>
           <Row>

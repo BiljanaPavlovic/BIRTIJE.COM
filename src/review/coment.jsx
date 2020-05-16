@@ -8,13 +8,17 @@ export default function UsersComment() {
   const [comment, setComment] = useState("");
   const [comments, commentList] = useContext(CommentContext);
 
+//upadate name in new comment
+
   const uptadeName = (e) => {
     setName(e.target.value);
   };
-
+//upadate comment in new comment
   const uptadeComment = (e) => {
     setComment(e.target.value);
   };
+
+  //adding comment in list of all comments on btn
 
   const addComment = (e) => {
     e.preventDefault();

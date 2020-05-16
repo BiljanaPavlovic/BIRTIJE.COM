@@ -8,6 +8,7 @@ export default function ListOfProfiles() {
   return (
     <div className="short-profile-list">
       <Container>
+      
         <Row md={4}>
           <Col>
             <ShortProfile
@@ -15,6 +16,9 @@ export default function ListOfProfiles() {
               slika1="/img/smajli1.jpg"
               slika2="/img/smajli.jpg"
               description="Lorem ipsum doloreLorem Ipsum is simply dummy text of the printing and typesetting industr"
+              question1 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+              question2 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+
             />
           </Col>
           <Col xs={6}>
@@ -23,6 +27,9 @@ export default function ListOfProfiles() {
               slika1="/img/smajli1.jpg"
               slika2="/img/smajli.jpg"
               description=" Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              question1 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+              question2 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+
             />
           </Col>
           <Col>
@@ -31,6 +38,9 @@ export default function ListOfProfiles() {
               slika1="/img/smajli1.jpg"
               slika2="/img/smajli.jpg"
               description=" Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              question1 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+              question2 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+
             />
           </Col>
         </Row>
@@ -41,6 +51,9 @@ export default function ListOfProfiles() {
               slika1="/img/smajli1.jpg"
               slika2="/img/smajli.jpg"
               description=" Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              question1 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+              question2 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+
             />
           </Col>
           <Col xs={6}>
@@ -49,6 +62,9 @@ export default function ListOfProfiles() {
               slika1="/img/smajli1.jpg"
               slika2="/img/smajli.jpg"
               description=" Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              question1 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+              question2 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+
             />
           </Col>
           <Col>
@@ -57,6 +73,9 @@ export default function ListOfProfiles() {
               slika1="/img/smajli1.jpg"
               slika2="/img/smajli.jpg"
               description=" Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              question1 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+              question2 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+
             />
           </Col>
         </Row>
@@ -67,6 +86,9 @@ export default function ListOfProfiles() {
               slika1="/img/smajli1.jpg"
               slika2="/img/smajli.jpg"
               description=" Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              question1 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+              question2 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+
             />
           </Col>
           <Col xs={6}>
@@ -75,6 +97,9 @@ export default function ListOfProfiles() {
               slika1="/img/smajli1.jpg"
               slika2="/img/smajli.jpg"
               description=" Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              question1 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+              question2 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+
             />
           </Col>
           <Col>
@@ -83,6 +108,9 @@ export default function ListOfProfiles() {
               slika1="/img/smajli1.jpg"
               slika2="/img/smajli.jpg"
               description=" Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              question1 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+              question2 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+
             />
           </Col>
         </Row>
@@ -93,6 +121,9 @@ export default function ListOfProfiles() {
               slika1="/img/smajli1.jpg"
               slika2="/img/smajli.jpg"
               description=" Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              question1 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+              question2 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+
             />
           </Col>
           <Col xs={6}>
@@ -101,6 +132,9 @@ export default function ListOfProfiles() {
               slika1="/img/smajli1.jpg"
               slika2="/img/smajli.jpg"
               description=" Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              question1 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+              question2 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+
             />
           </Col>
           <Col>
@@ -109,6 +143,9 @@ export default function ListOfProfiles() {
               slika1="/img/smajli1.jpg"
               slika2="/img/smajli.jpg"
               description=" Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              question1 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+              question2 =' Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+
             />
           </Col>
         </Row>

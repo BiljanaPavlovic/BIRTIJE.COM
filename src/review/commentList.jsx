@@ -2,6 +2,8 @@ import React,  { useState, createContext} from 'react';
 
 export const CommentContext = createContext();
 
+//list of all comments 
+
 export const CommentList = (props) => {
     const [comments, commentList] = useState([
         {

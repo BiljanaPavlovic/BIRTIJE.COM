@@ -2,12 +2,12 @@ import React from "react";
 import ListOfPub from "../pubs/ListOfPub";
 import About from "../about/About";
 import ListOfProfiles from "../users/ListOfProfiles";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {  Route, Link } from "react-router-dom";
 import Login from "../users/Login";
 
 export default function Content() {
   return (
-    <Router>
+ 
       <div>
         <Link to="/about">
           <button className="btn-about">O kafanama</button>
@@ -29,6 +29,6 @@ export default function Content() {
         <Route path="/profileList" component={ListOfProfiles} />
         <Route path="/ziri" component={Login} />
       </div>
-    </Router>
+  
   );
 }

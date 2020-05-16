@@ -7,9 +7,9 @@ import Col from "react-bootstrap/Col";
 export default function Text2() {
   return (
     <div className="text-history">
-      >
+      
       <Image src="/img/tekst2/stariIzgled.jpg" fluid />
-      <h3> Зграда „Српска круна“</h3>
+      <h2> Зграда „Српска круна“</h2>
       <p>
         Зграда „Српска круна“ је саграђена 1869. године, као једанод првих
         објеката у тада тек основаној Кнез Михаиловој улици.[1] Данас се налази
