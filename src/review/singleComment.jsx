@@ -20,6 +20,10 @@ export default function SingleComment({ name, comment }) {
     setNegativCounter(negativCounter - 1);
   };
 
+
+  
+
+
   //form for single comment
   return (
     <div className = 'single-comment'>

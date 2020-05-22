@@ -3,7 +3,7 @@ import DashBoard from "./DashBoard";
 
 export default function Login() {
 
-
+  //var provider = new firebase.auth.GoogleAuthProvider();
   
   return (
     <div>

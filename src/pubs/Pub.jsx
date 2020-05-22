@@ -6,7 +6,7 @@ import { CommentList } from "../review/commentList";
 export default function Pub({ name, adress, opis }) {
 
   //this is more information about pub that user gets when click on short version of pub
-
+ 
   return (
     <div>
       <CommentList>

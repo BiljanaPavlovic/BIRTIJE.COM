@@ -3,7 +3,16 @@ import React, { useState, useContext } from "react";
 import { CommentContext } from "./commentList";
 import SingleComment from "./singleComment";
 
+const firebase = require("firebase");
+// Required for side-effects
+require("firebase/firestore");
+
+
+
+
+
 export default function UsersComment() {
+  var db = firebase.firestore();
   const [name, setName] = useState("");
   const [comment, setComment] = useState("");
   const [comments, commentList] = useContext(CommentContext);
@@ -29,7 +38,24 @@ export default function UsersComment() {
         comment: comment,
       },
     ]);
-  };
+
+ 
+ 
+  // Add a new document in collection "cities"
+db.collection("comment").doc("Mornar").set({
+  name: name,
+  comment: comment
+})
+.then(function() {
+  console.log("Document successfully written!");
+})
+.catch(function(error) {
+  console.error("Error writing document: ", error);
+});
+};
+
+
+
 
   return (
     <div className="comment">
