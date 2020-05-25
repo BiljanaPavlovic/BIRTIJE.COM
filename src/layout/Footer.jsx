@@ -14,7 +14,8 @@ export default function Footer() {
               >
               <i class="fab fa-facebook-square"></i>
             </a>
-            <a href="www.instagram.com">
+            <a href="https://www.instagram.com/birtije/"
+            target = "/blanck">
               <i class="fab fa-instagram"></i>
             </a>
               <h6>
